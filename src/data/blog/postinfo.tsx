@@ -1,0 +1,10 @@
+export const PostInfo = [
+    {title:'8 Technology Trends That Will Dominate This Year', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'Introduction to Data Query Engines', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'The Online Database Migration Guide', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'Top Data Integration Use Cases for the Year Ahead', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'Top 10 Sales Skills You Must Master', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'Now Is the Time for Revenue Intelligence', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'How to Make Data Science Workflow Efficient?', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+    {title:'You Have Your Sales Forecast. Now What?', description:'Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your', postdate:'May 31', ago:'1min', view:'224', message:'0', heart:'20'},
+]
