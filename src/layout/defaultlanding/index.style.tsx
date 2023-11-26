@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+    background-image:url(${require('../../images/background.PNG')});
+    background-size:100%;
     display:flex;
     flex-direction:row;
-    background-color: #F1F7FF;
     color:black;
     padding:100px;
     img {
