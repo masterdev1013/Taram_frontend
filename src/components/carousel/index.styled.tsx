@@ -1,28 +1,9 @@
 import styled from "styled-components";
+
 export const Wrapper = styled.div`
-    
-    padding:100px 100px 0 100px;
+
 `;
 
-export const NewsTitle = styled.div`
-    color: #03203F;
-    font-family: Poppins;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 151.9%; /* 53.165px */
-    justify-content:center;
-    display:flex;
-    margin-bottom:50px;
-    span {
-        color: #155DE9;
-        font-family: Poppins;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 151.9%;
-    }
-`;
 export const Image = styled.div`
     padding:30px;
     box-sizing:border-box;
@@ -33,22 +14,7 @@ export const Image = styled.div`
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
     margin-right:22px;
-`
-export const Title = styled.div`
-    color: #03203F;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 24px */
-    width:300px;
-    margin-bottom:30px;
-`
-export const Images = styled.div`
-    display:flex;
-    flex-direction:row;
 `;
-
 export const Img1 = styled.div`
     margin-bottom:20px;
 `;
@@ -80,3 +46,13 @@ export const Button = styled.div`
         margin-left:10px;
     }
 `;
+export const Title = styled.div`
+    color: #03203F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    width:300px;
+    margin-bottom:30px;
+`

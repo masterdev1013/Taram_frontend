@@ -16,8 +16,9 @@ export const Content = styled.div`
 
 `;
 export const Images = styled.div`
-    
     display:flex;
+    border:1px solid red;
+    margin-left:37px;
 `;
 export const Title = styled.div`
     width:544px;
@@ -38,7 +39,7 @@ export const Title = styled.div`
     }
 `;
 export const Description = styled.div`
-    width:549px;
+    width:544px;
     height:87px;
     color: #677587; 
     font-family: Poppins;
@@ -52,8 +53,7 @@ export const Description = styled.div`
 export const Img1 = styled.div`
     width:142px;
     height:227px;
-    
-    margin:115px 15px;
+    margin:115px 26px;
 `;
 export const Img2 = styled.div`
     width:266px;
@@ -64,7 +64,6 @@ export const Img2 = styled.div`
 export const Img3 = styled.div`
     width:171px;
     height:186px;
-    
     margin-right:0;
     margin-top:142px;
 `;

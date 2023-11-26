@@ -30,58 +30,72 @@ export const ShippingBlog = styled.div`
 `;
 export const Country = styled.div`
     display:flex;
-    flex-direction:row;
-    color: #03203F;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 250%; /* 24.304px */
+    align-items:center;
     img {
+        width: 30px;
+        height: 24px;
+        flex-shrink: 0;
         margin-right:10px;
     }
-    margin-right:20px;
+    color: #03203F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.9%; /* 24.304px */
 `;
 export const Status = styled.div`
     display:flex;
     flex-direction:column;
     align-items:start;
-    margin-right:12px;
+    margin-right:30px;
 `;
 export const ShippingTitle = styled.div`
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
     color: #03203F;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
-    svg {
+    margin-bottom:20px;
+    svg{
         margin-right:5px;
     }
-    margin-bottom:20px;
 `;
 export const ShippingBar = styled.div`
+    display:flex;
+    flex-direction:column;
 
 `;
 export const Bar = styled.div`
     display:flex;
-    margin-bottom:10px;
-    box-sizing:border-box;
-    padding:10px;
+    flex-direction:row;
+    align-items:center;
+    width: 393px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
-    color: #155DE9;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height:200%; /* 21.266px */
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.02);
+    padding:14px 16px;
+    box-sizing:border-box;
+    margin-bottom:24px;
+    span {
+        color: #155DE9;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 151.9%; /* 21.266px */
+        margin-left:40px;
+    }
     svg {
-        margin-top:8px;
-        margin-right:20px;
+        margin-left:30px;
+        margin-right:25px;
     }
 `;
 

@@ -9,8 +9,6 @@ export const BlogGroup = styled.div`
     flex-direction:row;
 `;
 export const FromBlogTitle = styled.div`
-    display:flex;
-    justify-content:center;
     margin-bottom:40px;
     color: #03203F;
     font-family: Poppins;
@@ -18,6 +16,7 @@ export const FromBlogTitle = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 151.9%; /* 53.165px */
+    padding-left:520px;
     span {
         color: #155DE9;
         font-family: Poppins;
@@ -81,3 +80,25 @@ export const Date = styled.div`
     line-height: 150%; /* 21px */
     letter-spacing: 4.27px;
 `;
+export const Button = styled.div`
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    color: #155DE9;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+    svg{
+        margin-left:10px;
+    }
+`;
+
+export const Topbar = styled.div`
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+`

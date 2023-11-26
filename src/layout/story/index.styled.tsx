@@ -8,20 +8,48 @@ export const Wrapper = styled.div`
     overflow:hidden;
 `;
 
+export const Slider = styled.div`
+  margin-bottom:30px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  	@-webkit-keyframes s_scroll {
+		0% {
+			-webkit-transform: translateX(0);
+							transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(calc(-156.8px * 7));
+							transform: translateX(calc(-156.8px * 7));
+		}
+	}
+
+	@keyframes s_scroll {
+		0% {
+			-webkit-transform: translateX(0);
+							transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(calc(-156.8px * 7));
+							transform: translateX(calc(-156.8px * 7));
+		}
+	}
+`
+
 export const Images = styled.div`
-    display:flex;
-    flex-direction:row;
-    margin-bottom:40px;
+-webkit-animation: s_scroll 30s linear infinite;
+          animation: s_scroll 30s linear infinite;
+  display: flex;
+  width: calc(156.8px * 12);
 `
 export const Img = styled.div`
-    width: 156.8px;
-    height: 80px;
-    margin-right:31px;
-    flex-shrink: 0;
-    img {
-        width:100%;
-        height:100%;
-    }
+  margin-right:31.2px;
+  img {
+    width:156.8px;
+    height:80px;
+  }
+}
 `
 export const Title = styled.div`
     display:flex;

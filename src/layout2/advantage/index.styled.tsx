@@ -89,10 +89,13 @@ export const Text = styled.div`
 `;
 
 export const Schedule = styled.div`
+    width:1241px;
+    height:380px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #155DE9;
-    padding:100px 158px;
+    padding:68px 158px;
+    box-sizing:border-box;
     text-align:center;
 `;
 
@@ -111,13 +114,11 @@ export const ScheduleTitle = styled.div`
 export const ScheduleText = styled.div`
     width:926px;
     color: #FFF;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Gilroy-Medium;
+    text-align: center;
+    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 43.2px */
-    margin-bottom:30px;
-    justify-content:center;
-    display:flex;
+    line-height: 180%; /* 28.8px */
+    margin-bottom:40px;
 `;

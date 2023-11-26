@@ -1,16 +1,14 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css'
 import { 
     Wrapper, 
-    NewsTitle,
     Title ,
-    Images,
     Image,
     Img1, 
     ImgTitle,
     Button,
 } from './index.styled';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css'
 const responsive = {
     0: { items: 1 },
     568: { items: 2 },
@@ -133,21 +131,15 @@ const items = [
         </Image>
     </div>,
 ];
-export const News: React.FC = () => {
+
+export const Carousel: React.FC = () => {
     return (
         <Wrapper>
-            <NewsTitle>
-                News & <span>Events</span>
-            </NewsTitle>
-
-            <Images>
-                <AliceCarousel
-                    mouseTracking
-                    items={items}
-                    responsive={responsive}
-                    disableButtonsControls
-                />
-            </Images>
+            <AliceCarousel
+                mouseTracking
+                items={items}
+                responsive={responsive}
+            />
         </Wrapper>
     )
 }

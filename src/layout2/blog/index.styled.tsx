@@ -2,10 +2,103 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     
-    display:flex;
-    flex-direction:row;
-    padding-bottom:100px;
-    position:relative;
+    // display:flex;
+    // flex-direction:row;
+    // padding-bottom:100px;
+    // position:relative;
+    html, body {
+        padding: 0;
+        margin: 0;
+        background: #005C97;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        width: 100vw;
+        height:100vh;
+        display:flex;
+        align-item:center;
+       
+      
+      }
+      .container {
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        margin-top:100px;
+      
+      }
+      h2{
+        font-family:Pacifico;
+        font-size:36px;
+        margin:20px auto;
+        text-align:center;
+      }
+      img{
+        border-radius:8px;
+        background:#fff;
+        color:#3498db;
+        font-size:36px;
+        line-height:100px;
+        margin:10px;
+        // padding:2%;
+        //width: 100px;
+        //height: 100px;
+        position:relative;
+        text-align:center;
+        .top {
+          font-size: 70%;
+          height: 70%;
+          
+          margin: 0 auto;
+       
+        }
+        .bottom {
+          font-size: 70%;
+          width: 70%;
+          margin: 0 auto;
+       
+        }
+      }
+      .clip {
+      
+        // height: 200px;
+        overflow: hidden;
+        bottom: 0;
+      }
+      
+      .center .slick-slide {
+       
+        // height: 500px;
+      }
+      
+      .center .slick-center img{
+        //-moz-transform:scale(1.08);
+        //-ms-transform:scale(1.08);
+        //-o-transform:scale(1.08);
+        //-webkit-transform:scale(1.08);
+        transform:scale(1.0);
+        //width: 150px;
+        //height: 120px;
+        color:#e67e22;
+        opacity:1;
+        .top {
+          font-size: 90%;
+          width: 90%;
+          background-color: rgba(blue, 0.3);
+        }
+        .bottom {
+          font-size: 90%;
+          width: 90%;
+          background-color: rgba(green, 0.3);
+        }
+      }
+      .center img{
+        opacity:0.8;
+        transition:all 300ms ease;
+        bottom: 0;
+        transform:scale(0.9);
+      }
+      
 `;
 
 export const Main = styled.div`

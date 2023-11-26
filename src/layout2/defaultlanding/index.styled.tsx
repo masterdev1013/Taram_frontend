@@ -40,6 +40,7 @@ export const ButtonBar = styled.div`
     justify-content:space-between;
     padding:5px 20px;
     margin-left:320px;
+    margin-right:16px;
     div {
         width: 106px;
         height: 38px;
@@ -127,7 +128,7 @@ export const SearchIcon = styled.div`
     flex-shrink: 0;
     border-radius: 5px;
     background: #155DE9;
-    padding:10px;
+    padding:15px;
     box-sizing:border-box;
     margin-left:125px;
     margin-top:4px;

@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
 `;
 
-export const Title = styled.div`
+export const ShipTitle = styled.div`
     display:flex;
     color: #03203F;
     font-family: Poppins;
@@ -21,11 +21,11 @@ export const Title = styled.div`
     line-height: 180%;
 `;
 
-export const Icon = styled.div`
+export const ShipIcon = styled.div`
     position:relative;
 `;
 
-export const Description = styled.div`
+export const ShipDescription = styled.div`
     width:345px;
     color: #677587;
     font-family: Poppins;

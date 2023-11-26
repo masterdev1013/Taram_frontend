@@ -143,7 +143,9 @@ export const Deals: React.FC = () => {
                                     <path d="M14.375 7.5H11.875L12.5 4.375H15L14.375 7.5Z" stroke="#03203F" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M9.375 7.5H6.875L7.5 4.375H10L9.375 7.5Z" stroke="#03203F" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                FCL . 20’ ST
+                                <p>
+                                    FCL . 20’ ST
+                                </p>
                             </Bar>
 
                             <Price>

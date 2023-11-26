@@ -53,31 +53,35 @@ background: #FFF;
 box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
 padding:16px;
 box-sizing:border-box;
-img {
-    margin-bottom:10px;
-}
 
 `;
 export const Country = styled.div`
     display:flex;
     flex-direction:row;
+    align-items:center;
+    img {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        margin-right:9px;
+    }
     color: #03203F;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 151.9%; /* 24.304px */
-    img {
-        margin-right:10px;
-    }
+    margin:12px 0;
 `;
 export const PriceBar = styled.div`
     display:flex;
     justify-content:space-between;
 `;
 export const Bar = styled.div`
+    display:flex;
+    padding:0 7px;
+    align-items:center;
+    justify-content:space-between;
     maring-right:20px;
-      justify-content:space-beween;
     width: 120px;
     height: 30px;
     flex-shrink: 0;
@@ -88,7 +92,8 @@ export const Bar = styled.div`
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 151.9%; /* 21.266px */
+    box-sizing:border-box;
+    line-height: 150%; /* 21.266px */
 `;
 export const Price = styled.div`
     color: #155DE9;
