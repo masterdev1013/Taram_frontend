@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
     flex-direction:row;
     position:relative;
     overflow:hidden;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Description = styled.div`

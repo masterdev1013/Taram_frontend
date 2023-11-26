@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     padding:100px;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 export const InsightTitle = styled.div`
     display:flex;

@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     padding:100px 0 380px 0;
     text-align:center;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Title = styled.div`

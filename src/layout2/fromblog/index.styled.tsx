@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     padding:0 100px 100px 100px;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const BlogGroup = styled.div`

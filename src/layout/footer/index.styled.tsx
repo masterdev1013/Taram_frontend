@@ -13,6 +13,9 @@ export const Wrapper = styled.div`
         width:100%;
         background: rgba(255, 255, 255, 0.20);
     }
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const FooterContent = styled.div`

@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     padding:100px;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Title = styled.div`
@@ -90,6 +93,7 @@ export const Img1 = styled.div`
         height:100%;
     }
     margin-bottom:20px;
+
 `
 export const Bar = styled.div`
     width: 605px;
