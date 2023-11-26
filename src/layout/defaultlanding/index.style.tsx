@@ -17,7 +17,6 @@ export const Content = styled.div`
 `;
 export const Images = styled.div`
     display:flex;
-    border:1px solid red;
     margin-left:37px;
 `;
 export const Title = styled.div`
