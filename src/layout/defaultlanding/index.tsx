@@ -7,7 +7,7 @@ import {
     Img2,
     Img3,
     Images,
-    Content
+    Content,
 } from './index.style';
 import { Button } from '../../components/button';
 

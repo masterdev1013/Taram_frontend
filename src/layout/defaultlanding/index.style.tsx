@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+    background-image:url(${require('../../images/background.PNG')});
+    background-size:100%;
     display:flex;
     flex-direction:row;
-    background-color: #F1F7FF;
     color:black;
     padding:100px;
     img {
@@ -17,7 +18,6 @@ export const Content = styled.div`
 `;
 export const Images = styled.div`
     display:flex;
-    border:1px solid red;
     margin-left:37px;
 `;
 export const Title = styled.div`
