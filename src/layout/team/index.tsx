@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { 
     Wrapper ,
     Description,
@@ -15,9 +15,9 @@ import {
     SmallText,
     Prev,
     Next
-} from './index.styled';
-
+} from './index.styled'; 
 export const Team: React.FC = () => {
+
     return (
         <Wrapper>
             <Description>

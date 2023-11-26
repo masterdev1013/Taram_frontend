@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     background-color: #F1F7FF;
     padding:50px 100px;
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 export const ShipTitle = styled.div`
     display:flex;

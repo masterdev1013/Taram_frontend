@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
     padding:100px 100px 0 100px;
 `;
 

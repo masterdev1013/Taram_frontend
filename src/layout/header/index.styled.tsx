@@ -8,8 +8,11 @@ export const Wrapper = styled.div`
     
     padding:15px 100px;
     background-color:white;
-`;
-
+    @media screen and (max-width:1440px){
+        width:1240px;
+    }
+}
+`
 export const Logo = styled.div`
     
     a {

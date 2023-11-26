@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     padding:10px 100px 100px 10px;
     background-color:white;
-    
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Images = styled.div`

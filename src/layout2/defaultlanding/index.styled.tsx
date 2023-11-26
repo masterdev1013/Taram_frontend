@@ -8,6 +8,10 @@ export const Wrapper = styled.div`
     box-sizing:border-box;
     background: #F1F7FF;
     text-align:center;
+    width:1440px;
+    @media screen and (max-width:1440px)  {
+        width:1440px;
+    }
 `;
 
 export const Title = styled.div`

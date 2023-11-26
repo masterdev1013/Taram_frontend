@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
     text-align:center;
     
     overflow:hidden;
+
+    @media screen and (max-width:1440px)  {
+      width:1440px;
+    }
 `;
 
 export const Slider = styled.div`

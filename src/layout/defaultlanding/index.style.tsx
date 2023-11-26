@@ -11,6 +11,9 @@ export const Wrapper = styled.div`
         width:100%;
         height:100%;
     }
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Content = styled.div`

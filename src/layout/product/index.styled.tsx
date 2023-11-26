@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
- 
+    @media screen and (max-width:1440px)  {
+        width:1240px;
+    }
 `;
 
 export const Product1 = styled.div`
