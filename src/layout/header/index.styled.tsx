@@ -5,11 +5,10 @@ export const Wrapper = styled.div`
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    
     padding:15px 100px;
     background-color:white;
     @media screen and (max-width:1440px){
-        width:1240px;
+        width:1240px;   
     }
 }
 `
